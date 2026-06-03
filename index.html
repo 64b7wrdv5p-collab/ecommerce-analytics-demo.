@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo Sklep - Analytics Project</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; color: #222; }
+    header, section { padding: 48px 24px; max-width: 900px; margin: auto; }
+    header { background: #f3f6f9; max-width: none; }
+    .wrap { max-width: 900px; margin: auto; }
+    button { padding: 14px 22px; font-size: 16px; cursor: pointer; background: #0b57d0; color: white; border: 0; border-radius: 6px; }
+    .price { border: 1px solid #ddd; padding: 24px; border-radius: 8px; margin-top: 20px; }
+    footer { padding: 32px 24px; background: #222; color: white; }
+    footer a { color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Demo Sklep: Analytics Case Study</h1>
+      <p>Testowa strona do wdrożenia Google Tag Managera i Google Analytics 4.</p>
+      <button id="add-to-cart">Dodaj do koszyka</button>
+    </div>
+  </header>
+
+  <section>
+    <h2>Produkt</h2>
+    <p>Pakiet startowy dla osoby, która chce mierzyć zachowania użytkowników w e-commerce.</p>
+  </section>
+
+  <section style="height: 500px;">
+    <h2>Dlaczego ten produkt?</h2>
+    <p>Ta sekcja tworzy przestrzeń, żeby można było przetestować przewinięcie strony.</p>
+  </section>
+
+  <section id="pricing">
+    <h2>Cennik</h2>
+    <div class="price">
+      <h3>Pakiet Basic</h3>
+      <p>Cena: 99 zł</p>
+      <p>Cel analityczny: sprawdzić, czy użytkownik dotarł do informacji o cenie.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Link zewnętrzny do testu:</p>
+    <a id="social-link" href="https://www.linkedin.com/" target="_blank">Odwiedź LinkedIn</a>
+  </footer>
+</body>
+</html>
